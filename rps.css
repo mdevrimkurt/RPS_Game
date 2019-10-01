@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Aldrich';font-size: 22px;
+    background-color: rgb(135, 180, 238);
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: white;
+}
+
+.scores {
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 40%;
+    height: 12%;
+    margin: 20px auto;
+    padding: 15px 15px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+#usrName {
+    position: absolute;
+    left:10px;
+    top:40%;
+    color: red;
+    
+}
+
+#compName {
+    position: absolute;
+    right:10px;
+    top:40%;
+    color: blue;
+}
+
+#usrScore {
+    position: absolute;
+    left: 35%;
+    top:40%;
+    color: red;
+    font-weight: bold;
+}
+
+#compScore {
+    position: absolute;
+    right: 35%;
+    top:40%;
+    color: blue;
+    font-weight: bold;
+}
+
+#col {
+    position: absolute;
+    top:40%;
+    left:49%;
+    
+}
+
+.results {
+    visibility: hidden;
+}
+.results p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.choices{
+    text-align: center;
+    margin:40px 0;
+}
+
+.choice {
+    display: inline-block;
+    padding:20px 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.choice:hover {
+    cursor:pointer;
+    background-color: yellow;
+}
+
+.action {
+    text-align: center;
+    color: white;
+}
+
+.choiceSpanc {
+    color:blue;
+}
+
+.choiceSpanu {
+    color:red;
+}

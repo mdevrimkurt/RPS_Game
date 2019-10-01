@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+</head>
+<body onload="alertFunc()">
+    <header>
+        <h1>Rock - Paper - Scissors</h1>
+    </header>
+    <main>
+        <section class="scores">
+            <div id="usrName" class="users">You</div>
+            <div id="usrScore">0</div>
+            <div id="col">:</div>
+            <div id="compScore">0</div>
+            <div id="compName" class="users">Computer</div>
+        </section>
+
+        <section class="results">
+            <p id="result">Who wins, who loses!!!</p>
+        </section>
+
+        <section class="choices">
+            <div id="r" class="choice"><img src="./images/rock.png" title="rock" alt="rock icon"> </div>
+            <div id="p" class="choice"><img src="./images/paper.png" title="paper" alt="paper icon"> </div>
+            <div id="s" class="choice"><img src="./images/scissors.png" title="scissors" alt="scissors icon"> </div>
+        </section>
+
+        <section class="action">
+            <p>Make a move, click Rock, Paper or Scissors!</p>
+        </section>
+    </main>
+
+    <script src="rps.js"></script>
+</body>
+</html>
